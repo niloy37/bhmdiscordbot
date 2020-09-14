@@ -63,17 +63,17 @@ client.on('message', message=> {
 
 client.on('message', message=> {
 	if(message.content === 'Havoc')
-	message.channel.send( `${message.author.tag}, Havoc has been notified, please wait for his response.`);
+	message.channel.send( `${message.author}, Havoc has been notified, please wait for his response.`);
 	});
 
 	client.on('message', message=> {
 		if(message.content === 'Oze')
-		message.channel.send(`${message.author.tag}, Ozemandias has been notified, please wait for his response.`);
+		message.channel.send(`${message.author}, Ozemandias has been notified, please wait for his response.`);
 		});
 
 		client.on('message', message=> {
 			if(message.content === 'Rupom')
-			message.channel.send(`${message.author.tag}, Rupom has been notified, please wait for his response.`);
+			message.channel.send(`${message.author}, Rupom has been notified, please wait for his response.`);
 			});
 		
 	
