@@ -27,13 +27,13 @@ client.on('message', message => {
 
 client.on('message', message=> {
 if(message.content === '!radio')
-message.channel.send('```Frequency for BHM Radio is  360 MHz```');
+message.channel.send(''```Frequency for BHM Radio is  360 MHz```');
 });
 
 
 client.on('message', message=> {
 	if(message.content === 'bhai')
-	message.channel.send('kon bhai, kar bhai?');
+	message.channel.send(`${message.author.tag} kon bhai, kar bhai?`);
 	});
 
 // Set the bot's "Playing: " status (must be in an event!)
@@ -63,17 +63,17 @@ client.on('message', message=> {
 
 client.on('message', message=> {
 	if(message.content === 'Havoc')
-	message.channel.send( 'Havoc has been notified, please wait for his response.');
+	message.channel.send( `${message.author.tag}, Havoc has been notified, please wait for his response.`);
 	});
 
 	client.on('message', message=> {
 		if(message.content === 'Oze')
-		message.channel.send('Ozemandias has been notified, please wait for his response.');
+		message.channel.send(`${message.author.tag}, Ozemandias has been notified, please wait for his response.`);
 		});
 
 		client.on('message', message=> {
 			if(message.content === 'Rupom')
-			message.channel.send('Rupom has been notified, please wait for his response.');
+			message.channel.send(`${message.author.tag}, Rupom has been notified, please wait for his response.`);
 			});
 		
 	
