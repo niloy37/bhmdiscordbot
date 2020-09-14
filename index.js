@@ -35,6 +35,14 @@ client.on('message', message=> {
 	if(message.content === 'bhai')
 	message.channel.send('kon bhai, kar bhai?');
 	});
+
+// Set the bot's "Playing: " status (must be in an event!)
+client.on("ready", () => {
+    client.user.setActivity("Black Hand Mafia Discord", { type: "WATCHING"})
+})
+
+
+
 	
 	client.on('message', message=> {
 		if(message.content === '!sajid')
