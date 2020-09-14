@@ -30,6 +30,15 @@ if(message.content === '!radio')
 message.channel.send('```Frequency for BHM Radio is  360 MHz```');
 });
 
+
+client.on('message', message=> {
+	if(message.content === 'bhai')
+	message.channel.send('kon bhai, kar bhai?');
+	});
+
+
+
+
 client.on('message', message=> {
 	if(message.content === 'Havoc')
 	message.channel.send('Havoc has been notified, please wait for his response.');
