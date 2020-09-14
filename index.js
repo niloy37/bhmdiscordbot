@@ -27,7 +27,7 @@ client.on('message', message => {
 
 client.on('message', message=> {
 if(message.content === '!radio')
-message.channel.send('```Frequency for BHM Radio is  358 MHz```');
+message.channel.send('```Frequency for BHM Radio is  360 MHz```');
 });
 
 client.on('message', message=> {
