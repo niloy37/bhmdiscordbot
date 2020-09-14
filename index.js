@@ -63,7 +63,7 @@ client.on('message', message=> {
 
 client.on('message', message=> {
 	if(message.content === 'Havoc')
-	message.channel.send('Havoc has been notified, please wait for his response.');
+	message.channel.send('${user}, Havoc has been notified, please wait for his response.');
 	});
 
 	client.on('message', message=> {
