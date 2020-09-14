@@ -35,8 +35,16 @@ client.on('message', message=> {
 	if(message.content === 'bhai')
 	message.channel.send('kon bhai, kar bhai?');
 	});
+	
+	client.on('message', message=> {
+		if(message.content === '!sajid')
+		message.channel.send('Lamiya wants to know your location');
+		});
 
-
+client.on('message', message=> {
+		if(message.content === '!oze')
+		message.channel.send('Anyone renting GPU??');
+		});
 
 
 client.on('message', message=> {
