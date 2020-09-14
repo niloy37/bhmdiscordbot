@@ -33,7 +33,7 @@ message.channel.send('```Frequency for BHM Radio is  360 MHz```');
 
 client.on('message', message=> {
 	if(message.content === 'bhai')
-	message.channel.send(`${message.author.tag} kon bhai, kar bhai?`);
+	message.channel.send(`${message.author} kon bhai, kar bhai?`);
 	});
 
 // Set the bot's "Playing: " status (must be in an event!)
