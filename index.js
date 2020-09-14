@@ -18,6 +18,12 @@ client.on('message', message => {
 		message.channel.send('Loves Bindi.');
 	}
 });
+client.on('message', message => {
+	if (message.content === '!xman') {
+		// send back "Pong." to the channel the message was sent in
+		message.channel.send('Sorry, user has been booked by the Saudi-Sheikhs for tonight!');
+	}
+});
 
 client.on('message', message=> {
 if(message.content === '!radio')
