@@ -46,6 +46,12 @@ client.on('message', message=> {
 		message.channel.send('Anyone renting GPU??');
 		});
 
+		client.on('message', message=> {
+			if(message.content === '!wasi')
+			message.channel.send('Rama Rama, Errrama');
+			});
+	
+
 
 client.on('message', message=> {
 	if(message.content === 'Havoc')
