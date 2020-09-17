@@ -49,7 +49,12 @@ client.on("ready", () => {
 		message.channel.send('Lamiya wants to know your location');
 		});
 
-client.on('message', message=> {
+        client.on('message', message=> {
+		if(message.content === '!haxor')
+		message.channel.send('Why do you want to contact with that madarxod?');
+		});
+
+       client.on('message', message=> {
 		if(message.content === '!oze')
 		message.channel.send('Anyone renting GPU??');
 		});
@@ -57,6 +62,11 @@ client.on('message', message=> {
 		client.on('message', message=> {
 			if(message.content === '!wasi')
 			message.channel.send('Rama Rama, Errrama');
+			});
+
+              client.on('message', message=> {
+			if(message.content === '!pasha')
+			message.channel.send('behen ki lawre');
 			});
 	
 
