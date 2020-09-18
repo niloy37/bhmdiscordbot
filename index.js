@@ -39,12 +39,6 @@ client.on('message', message=> {
 client.on("ready", () => {
     client.user.setActivity("Black Hand Mafia Discord", { type: "WATCHING"})
 })
-
-
-client.on('message', message => {
-	if (message.content === '!havoc') {
-		message.channel.send('Loves Bindi.');
-		});
 	
 	client.on('message', message=> {
 		if(message.content === '!sajid')
@@ -75,7 +69,7 @@ client.on('message', message => {
 
 client.on('message', message=> {
 	if(message.content === 'Havoc')
-	message.channel.send( `${message.author}, Havoc Can't play fifa. xD!.`);
+	message.channel.send( `${message.author}, Havoc has been notified, please wait for his response.`);
 	});
 
 	client.on('message', message=> {
