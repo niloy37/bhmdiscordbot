@@ -83,7 +83,7 @@ client.on('message', message=> {
 	  
 	const args = message.content.slice(1).trim().split(' ');
 	const command = args.shift().toLowerCase();
-  
+  //this is a test
 	if (command == "announce") {
 	  var announcement = "";
 	  for (const word in args) {
