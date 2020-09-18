@@ -12,11 +12,6 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-	if (message.content === '!havoc') {
-		// send back "Pong." to the channel the message was sent in
-		message.channel.send('Loves Bindi.');
-
-client.on('message', message => {
 	if (message.content === '!rupom') {
 		// send back "Pong." to the channel the message was sent in
 		message.channel.send('Loves Bindi.');
@@ -46,7 +41,10 @@ client.on("ready", () => {
 })
 
 
-
+client.on('message', message => {
+	if (message.content === '!havoc') {
+		message.channel.send('Loves Bindi.');
+		});
 	
 	client.on('message', message=> {
 		if(message.content === '!sajid')
