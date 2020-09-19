@@ -14,7 +14,7 @@ client.once('ready', () => {
 client.on('message', message => {
 	if (message.content === '!rupom') {
 		// send back "Pong." to the channel the message was sent in
-		message.channel.send('Loves Bindi.');
+		message.channel.send('Loves Odhora.');
 	}
 });
 client.on('message', message => {
@@ -59,6 +59,12 @@ client.on("ready", () => {
 			if(message.content === '!wasi')
 			message.channel.send('Rama Rama, Errrama');
 			});
+       
+                client.on('message', message=> {
+			if(message.content === '!havoc')
+			message.channel.send('Loves Bindi');
+			});
+ 
 
               client.on('message', message=> {
 			if(message.content === '!pasha')
