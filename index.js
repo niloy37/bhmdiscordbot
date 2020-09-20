@@ -72,7 +72,8 @@ client.on("ready", () => {
        
                  client.on('message', message=> {
 			if(message.content === '!havoc')
-			message.channel.send('Loves Bindi'); 			});
+			message.channel.send('Loves Bindi'); 		
+		       });
  
 
               client.on('message', message=> {
