@@ -57,7 +57,7 @@ client.on("ready", () => {
 
         client.on('message', message=> {
 		if(message.content === '!dimion')
-		message.channel.send('busy,eating with girls');
+		message.channel.send('You mean shotgun?');
 		});
 
        client.on('message', message=> {
