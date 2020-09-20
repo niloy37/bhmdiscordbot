@@ -50,6 +50,16 @@ client.on("ready", () => {
 		message.channel.send('Why do you want to contact with that madarxod?');
 		});
 
+        client.on('message', message=> {
+		if(message.content === '!emon')
+		message.channel.send('In a call with his girlfriend.');
+		});
+
+        client.on('message', message=> {
+		if(message.content === '!dimion')
+		message.channel.send('busy,eating with girls');
+		});
+
        client.on('message', message=> {
 		if(message.content === '!oze')
 		message.channel.send('Anyone renting GPU??');
