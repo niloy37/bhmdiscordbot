@@ -70,10 +70,10 @@ client.on("ready", () => {
 			message.channel.send('Rama Rama, Errrama');
 			});
        
-                 client.on('message', message=> {
-			if(message.content === '!havoc')
-			message.channel.send('Loves Bindi'); 		
-		       });
+//                  client.on('message', message=> {
+// 			if(message.content === '!havoc')
+// 			message.channel.send('Loves Bindi'); 		
+// 		       });
  
 
               client.on('message', message=> {
@@ -134,7 +134,7 @@ client.on('message', message=> {
   })
 
 
-
+//end
   
 
 client.login(process.env.token);
