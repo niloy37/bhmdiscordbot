@@ -45,6 +45,11 @@ client.on("ready", () => {
 		message.channel.send('Lamiya wants to know your location');
 		});
 
+         client.on('message', message=> {
+		if(message.content === '!mahdin')
+		message.channel.send('Dudu dekhan. Dudu na dekhaile cole gelam');
+		});
+
         client.on('message', message=> {
 		if(message.content === '!haxor')
 		message.channel.send('Why do you want to contact with that madarxod?');
