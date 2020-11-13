@@ -55,6 +55,11 @@ client.on("ready", () => {
 		message.channel.send('Why do you want to contact with that madarxod?');
 		});
 
+         client.on('message', message=> {
+		if(message.content === '!havoc')
+		message.channel.send('Fucking carried diamond');
+		});
+
         client.on('message', message=> {
 		if(message.content === '!emon')
 		message.channel.send('In a call with his girlfriend.');
