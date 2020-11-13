@@ -54,6 +54,10 @@ client.on("ready", () => {
 		if(message.content === '!emon')
 		message.channel.send('In a call with his girlfriend.');
 		});
+        client.on('message', message=> {
+		if(message.content === '!maaj')
+		message.channel.send('You mean toxic maaj?');
+		});
 
         client.on('message', message=> {
 		if(message.content === '!dimion')
