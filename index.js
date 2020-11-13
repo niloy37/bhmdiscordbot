@@ -22,11 +22,6 @@ client.on('message', message => {
 		// send back "Pong." to the channel the message was sent in
 		message.channel.send('Sorry, user has been booked by the Saudi-Sheikhs for tonight!');
 	}
-client.on('message', message => {
-	if (message.content === '!maaj') {
-		// send back "Pong." to the channel the message was sent in
-		message.channel.send('you mean toxic maaj?');
-	}
 });
 
 client.on('message', message=> {
