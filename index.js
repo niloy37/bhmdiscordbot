@@ -51,6 +51,11 @@ client.on("ready", () => {
 		});
 
         client.on('message', message=> {
+		if(message.content === '!pang')
+		message.channel.send('Good Morning.);
+		});
+
+        client.on('message', message=> {
 		if(message.content === '!haxor')
 		message.channel.send('Why do you want to contact with that madarxod?');
 		});
