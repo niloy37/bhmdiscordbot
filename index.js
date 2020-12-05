@@ -44,27 +44,18 @@ client.on("ready", () => {
 		if(message.content === '!sajid')
 		message.channel.send('Lamiya wants to know your location');
 		});
-
          client.on('message', message=> {
 		if(message.content === '!mahdin')
 		message.channel.send('Dudu dekhan. Dudu na dekhaile cole gelam');
 		});
-
-        client.on('message', message=> {
-		if(message.content === '!pang')
-		message.channel.send('Good Morning.);
-		});
-
         client.on('message', message=> {
 		if(message.content === '!haxor')
 		message.channel.send('Why do you want to contact with that madarxod?');
 		});
-
          client.on('message', message=> {
 		if(message.content === '!havoc')
 		message.channel.send('Fucking carried diamond');
 		});
-
         client.on('message', message=> {
 		if(message.content === '!emon')
 		message.channel.send('In a call with his girlfriend.');
