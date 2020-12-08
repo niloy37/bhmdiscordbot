@@ -58,7 +58,7 @@ client.on("ready", () => {
 		});
          client.on('message', message=> {
 		if(message.content === '!havoc')
-		message.channel.send('Fucking carried diamond');
+		message.channel.send('মাগিবাজ ছেলে ');
 		});
         client.on('message', message=> {
 		if(message.content === '!emon')
