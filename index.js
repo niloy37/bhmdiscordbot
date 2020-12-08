@@ -58,7 +58,7 @@ client.on("ready", () => {
 		});
          client.on('message', message=> {
 		if(message.content === '!havoc')
-		message.channel.send('মাগিবাজ ছেলে ');
+		message.channel.send('Never Immortal ');
 		});
         client.on('message', message=> {
 		if(message.content === '!emon')
