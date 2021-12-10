@@ -42,7 +42,7 @@ client.on("ready", () => {
 	
 	client.on('message', message=> {
 		if(message.content === '!sajid')
-		message.channel.send('Lamiya wants to know your location');
+		message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918867188335669248/175689469_1101295460356055_8288913261650733605_n_1.jpg');
 		});
          client.on('message', message=> {
 		if(message.content === '!mahdin')
