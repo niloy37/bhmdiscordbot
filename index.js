@@ -80,8 +80,8 @@ client.on("ready", () => {
 		});
 
 		client.on('message', message=> {
-			if(message.content === '!wasi')
-			message.channel.send('Rama Rama, Errrama');
+			if(message.content === '!sabid')
+			message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918867641014317076/20031909_103450856985312_6230515363120431526_n.jpg');
 			});
        
 //                  client.on('message', message=> {
