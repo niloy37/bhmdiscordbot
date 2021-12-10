@@ -62,7 +62,7 @@ client.on("ready", () => {
 		});
         client.on('message', message=> {
 		if(message.content === '!emon')
-		message.channel.send('In a call with his girlfriend.');
+		message.channel.send('https://cdn.discordapp.com/attachments/893772731424837642/918748802473680966/EmonEEEE.jpg');
 		});
         client.on('message', message=> {
 		if(message.content === '!maaj')
