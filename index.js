@@ -58,7 +58,7 @@ client.on("ready", () => {
 		});
          client.on('message', message=> {
 		if(message.content === '!havoc')
-		message.channel.send('Never Immortal ');
+		message.channel.send('https://cdn.discordapp.com/attachments/893772731424837642/918746758283157535/havoc.jpg');
 		});
         client.on('message', message=> {
 		if(message.content === '!emon')
