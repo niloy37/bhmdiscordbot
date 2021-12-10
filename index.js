@@ -14,7 +14,7 @@ client.once('ready', () => {
 client.on('message', message => {
 	if (message.content === '!rupom') {
 		// send back "Pong." to the channel the message was sent in
-		message.channel.send('Loves Odhora.');
+		message.channel.send('https://cdn.discordapp.com/attachments/893772731424837642/918747623740043304/Rupomx.jpg');
 	}
 });
 client.on('message', message => {
