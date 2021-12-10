@@ -76,7 +76,7 @@ client.on("ready", () => {
 
        client.on('message', message=> {
 		if(message.content === '!oze')
-		message.channel.send('Anyone renting GPU??');
+		message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918749073480241182/15439905_373521899664537_600511466642628842_n.jpg');
 		});
 
 		client.on('message', message=> {
