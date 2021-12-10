@@ -46,7 +46,7 @@ client.on("ready", () => {
 		});
          client.on('message', message=> {
 		if(message.content === '!mahdin')
-		message.channel.send('Dudu dekhan. Dudu na dekhaile cole gelam');
+		message.channel.send('Havoc Vai, pang toh nai, amake abar nen na.');
 		});
         client.on('message', message=> {
 		if(message.content === '!haxor')
