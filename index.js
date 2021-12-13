@@ -84,6 +84,11 @@ client.on("ready", () => {
 			if(message.content === '!sabid')
 			message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918867641014317076/20031909_103450856985312_6230515363120431526_n.jpg');
 			});
+		
+			client.on('message', message=> {
+			if(message.content === '!shanto')
+			message.channel.send('https://scontent.xx.fbcdn.net/v/t1.15752-9/p320x320/264686932_1796677264055760_6513904486538220557_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGuVf3aMK8kGzcH50-bLrYdm5bVGd-4eVebltUZ37h5V5F7vLchgOXGrdn9qfW4dZs_w9QPjqGcfPb7XXmttnCd&_nc_ohc=HaUO2AcOGIsAX-jsXR5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJqtlsiSFWZfGraLhIBFoH8JbTnd9Y3UMwUDr9rPYxxrQ&oe=61DE8A6C');
+			});
        
 //                  client.on('message', message=> {
 // 			if(message.content === '!havoc')
