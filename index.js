@@ -73,6 +73,10 @@ client.on("ready", () => {
 		if(message.content === '!dimion')
 		message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918868465262137384/12295410_1656312857971494_2339211801915431556_n.jpg');
 		});
+	client.on('message', message=> {
+		if(message.content === '!rahib')
+		message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918872220909072456/received_735872633792272.jpeg');
+		});
 
        client.on('message', message=> {
 		if(message.content === '!oze')
