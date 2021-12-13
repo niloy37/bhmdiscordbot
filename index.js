@@ -44,10 +44,7 @@ client.on("ready", () => {
 		if(message.content === '!sajid')
 		message.channel.send('https://cdn.discordapp.com/attachments/683332734428381247/918867188335669248/175689469_1101295460356055_8288913261650733605_n_1.jpg');
 		});
-         client.on('message', message=> {
-		if(message.content === '!mahdin')
-		message.channel.send('Havoc Vai, pang toh nai, amake abar nen na.');
-		});
+     
         client.on('message', message=> {
 		if(message.content === '!haxor')
 		message.channel.send('Why do you want to contact with that madarxod?');
